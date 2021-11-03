@@ -8,7 +8,13 @@ export function HomePage() {
         <title>Home Page</title>
         <meta name="description" content="A Boilerplate application homepage" />
       </Helmet>
-      <span>HomePage container</span>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col">Column</div>
+          <div className="col">Column</div>
+          <div className="col">Column</div>
+        </div>
+      </div>
     </>
   );
 }
