@@ -26,4 +26,12 @@ export const GlobalStyle = createGlobalStyle`
     font-family: inherit;
     font-size: inherit;
   }
+
+  .uppercase {
+    text-transform: uppercase;
+  }
+
+  .mr-15 {
+    margin-right: 15px;
+  }
 `;
